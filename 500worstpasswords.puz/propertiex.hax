@@ -1,0 +1,38 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>500 worst password dot tee ex tee</title>
+  <category>Bin</category>
+  <author>Hiromi</author>
+  <points>200</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	Enter the right password, get the flag.    
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint index=0>A list would be handy.</hint>
+    <hint index=1>Like a Brute.</hint>
+    <hint index=2>Maybe you gotta write something.</hint>
+    <hint index=3>Automation.</hint>
+    <hint index=4>Bruteforce.</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/atari/</flag>
+    <model>Bruteforce the binary with a password list and some automation (scripting). for example, 500-worst-passwords.txt (Google). Example Solution: perl bf.pl | grep flag [bf.pl is provided for internal use]</model>
+  </solution>
+
+</properties>
