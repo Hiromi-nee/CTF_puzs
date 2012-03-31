@@ -1,0 +1,42 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>exemmel</title>
+  <category>Crypto/Forensics</category>
+  <author>Hiromi</author>
+  <points>100</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file index=0>
+		<hash>d02816b23dc832cc733eaf3991dc08e9</hash> 
+		<filename>exemmel.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+    
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint index=0>Is it really an xml file?</hint>
+    <hint index=1>Vectors</hint>
+    <hint index=2>Structures</hint>
+    <hint index=3>Graphics</hint>
+    <hint index=4>Hashing</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/db93a14f1649e2d82ee5c8717e7e6e91/i</flag>
+    <model>It's an SVG file, when viewed in an appropriate manner (through a browser that supports SVG, e.g.: Chromium) it will show "MD5" written. The answer is the md5 hash of the svg file.</model>
+  </solution>
+
+</properties>
