@@ -1,0 +1,47 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>Foring mah lazars</title>
+  <category>Web/Forensics</category>
+  <author>Hiromi</author>
+  <points>100</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file index=0>
+		<hash>637ad26130a232483e8547becd0bcbdb</hash> 
+		<filename>637ad26130a232483e8547becd0bcbdb.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+    Recently there are rumours of a web-based DDOS tool floating around.
+The tool sends a HTTP request in this format:
+"http://<website.domain>/<message>" 
+We found some suspicious javascript code on a recently defaced website. 
+The HTML page with the code has been copied. 
+Find the message.
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint index=0>Packing</hint>
+    <hint index=1>HTTP traffic</hint>
+    <hint index=2>Sniffing</hint>
+    <hint index=3>A line from the access.log of a DDOS victim's webserver
+8.8.8.8 victim.org - [30/Mar/2012:17:02:28 +0400] "OPTIONS /message HTTP/1.1" 404 345 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.83 Safari/535.11"</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/yetanotherboringflag/i</flag>
+    <model>Javascript uses ajax to make a http request to a certain host, appending a message in this form: http://host/msg. Either sniff webtraffic, or unpack javascript.</model>
+  </solution>
+
+</properties>
