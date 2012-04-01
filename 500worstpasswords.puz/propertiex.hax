@@ -10,6 +10,10 @@
   <!-- files -->
   <!-- list of files included in the puzzle package -->
   <distributables>
+	<file index=0>
+		<hash>7bea99acd97d1f40e252d5e8abe05fdc</hash>
+		<filename>7bea99acd97d1f40e252d5e8abe05fdc.7z</filename>
+	</file>
   </distributables>
 
   <!-- descriptions -->
