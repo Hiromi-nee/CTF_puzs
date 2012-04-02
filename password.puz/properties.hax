@@ -1,0 +1,39 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>password</title>
+  <category>Binary</category>
+  <author>Hiromi</author>
+  <points>100</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file index=0>
+		<hash>5c548bcca0091fd107ef61faf864c4aa</hash> 
+		<filename>5c548bcca0091fd107ef61faf864c4aa.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+    Enter the right password, get the flag.
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint index=0>Hidden in plain sight</hint>
+    <hint index=1>strings strings everywhere</hint>
+    <hint index=2>This are not the hex you're looking for</hint>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/twoeasytwobetruebutitis/</flag>
+    <model>In linux terminal, run "strings <binaryfile>"  password can be seen in plaintext. Enter the password and it will print the flag to STDOUT</model>
+  </solution>
+
+</properties>
