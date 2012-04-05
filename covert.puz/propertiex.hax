@@ -10,7 +10,7 @@
   <!-- files -->
   <!-- list of files included in the puzzle package -->
   <distributables>
-	<file index=0>
+	<file>
 		<hash>80f8b2ad1338388979494fb14468f42e</hash>
 		<filename>80f8b2ad1338388979494fb14468f42e.7z</filename>
 	</file>
@@ -25,11 +25,11 @@
   <!-- hints -->
   <!-- list of hints to be sequentially given out -->
   <hints>
-    <hint index=0>Hidden package</hint>
-    <hint index=1>Ancient ciphers</hint>
-    <hint index=2>Rich history</hint>
-    <hint index=3>Famous Dialects</hint>
-    <hint index=4>Region</hint>
+    <hint>Hidden package</hint>
+    <hint>Ancient ciphers</hint>
+    <hint>Rich history</hint>
+    <hint>Famous Dialects</hint>
+    <hint>Region</hint>
   </hints>
 
   <!-- solution -->

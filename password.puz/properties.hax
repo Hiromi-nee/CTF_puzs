@@ -10,7 +10,7 @@
   <!-- files -->
   <!-- list of files included in the puzzle package -->
   <distributables>
-	<file index=0>
+	<file>
 		<hash>5c548bcca0091fd107ef61faf864c4aa</hash> 
 		<filename>5c548bcca0091fd107ef61faf864c4aa.7z</filename>
 	</file>
@@ -25,9 +25,9 @@
   <!-- hints -->
   <!-- list of hints to be sequentially given out -->
   <hints>
-    <hint index=0>Hidden in plain sight</hint>
-    <hint index=1>strings strings everywhere</hint>
-    <hint index=2>This are not the hex you're looking for</hint>
+    <hint>Hidden in plain sight</hint>
+    <hint>strings strings everywhere</hint>
+    <hint>This are not the hex you're looking for</hint>
 
   <!-- solution -->
   <!-- regex of accepted flag and a short description on the model solution -->

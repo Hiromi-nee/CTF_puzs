@@ -10,7 +10,7 @@
   <!-- files -->
   <!-- list of files included in the puzzle package -->
   <distributables>
-	<file index=0>
+	<file>
 		<hash>d02816b23dc832cc733eaf3991dc08e9</hash> 
 		<filename>d02816b23dc832cc733eaf3991dc08e9.7z</filename>
 	</file>
@@ -25,11 +25,11 @@
   <!-- hints -->
   <!-- list of hints to be sequentially given out -->
   <hints>
-    <hint index=0>Is it really an xml file?</hint>
-    <hint index=1>Vectors</hint>
-    <hint index=2>Structures</hint>
-    <hint index=3>Graphics</hint>
-    <hint index=4>Hashing</hint>
+    <hint>Is it really an xml file?</hint>
+    <hint>Vectors</hint>
+    <hint>Structures</hint>
+    <hint>Graphics</hint>
+    <hint>Hashing</hint>
   </hints>
 
   <!-- solution -->
