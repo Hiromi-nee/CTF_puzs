@@ -1,0 +1,41 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>dotteddecimals</title>
+  <category>Network</category>
+  <author>Hiromi</author>
+  <points>100</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+   <![CDATA[
+	Dotteddecimals.<br>
+	11001101101110010111110100001110<br>
+	CDB97D0E<br>
+	3451485454<br>
+	/resolved
+  ]]>    
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>The Interwebs</hint>
+    <hint>DNS isn't helping</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/ipv6isthefuture/</flag>
+    <model>Binary/hex/decimal forms of ipv4 dotted decimal notation address. Real ip address: 205.185.125.14. /resolved is the file to retrieve from the webserver. Solution: http://3451485454/resolved </model>
+  </solution>
+
+</properties>
