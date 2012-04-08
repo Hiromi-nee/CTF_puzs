@@ -3,8 +3,9 @@
   <!-- nfo -->
   <!-- all informational fields -->
   <title>Foring mah lazars</title>
-  <category>Web/Forensics</category>
+  <category>Web</category>
   <author>Hiromi</author>
+  <version>0</version>
   <points>100</points>
 
   <!-- files -->

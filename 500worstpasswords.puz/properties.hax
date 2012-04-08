@@ -5,8 +5,10 @@
   <title>500 worst password dot tee ex tee</title>
   <category>Bin</category>
   <author>Hiromi</author>
+  <version>0</version>
   <points>200</points>
 
+  
   <!-- files -->
   <!-- list of files included in the puzzle package -->
   <distributables>
