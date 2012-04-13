@@ -1,0 +1,44 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>A Rough Patch</title>
+  <category>Binary</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>100</points>
+
+  
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file>
+		<hash>2378645844c18b141dd7283e5a6cd46f</hash>
+		<filename>2378645844c18b141dd7283e5a6cd46f.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	Enter digits. Hmm, looks like we hit a rough patch.
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>6 digits is not enough</hint>
+    <hint>Try taking a different look</hint>
+    <hint>hexedit</hint>
+    <hint>Hmm, it seems we need some modifications.</hint>
+    <hint>Remove the restriction.</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/drmfreebins/</flag>
+    <model>%6s limits input to 6 characters. To trigger the program to print the flag, user has to input 10 characters. Modify the binary's hex. %6s to %s, then enter 10 digits.</model>
+  </solution>
+
+</properties>
