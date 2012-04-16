@@ -36,7 +36,7 @@
   <!-- solution -->
   <!-- regex of accepted flag and a short description on the model solution -->
   <solution>
-    <flag>/b1c1ea05cc821494451fe9394526a1ca/i</flag>
+    <flag>/3e87e859164d7f30231e55f039ca0ea2df6b14f5/i</flag>
     <model>It's an SVG file, when viewed in an appropriate manner (through a browser that supports SVG, e.g.: Chromium) it will show "MD5" written. The answer is the md5 hash of the svg file.</model>
   </solution>
 
