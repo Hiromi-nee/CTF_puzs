@@ -1,0 +1,44 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>nonono</title>
+  <category>Misc</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>300</points>
+
+  
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file>
+		<hash></hash>
+		<filename></filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	Nononononono.    
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint></hint>
+    <hint></hint>
+    <hint></hint>
+    <hint></hint>
+    <hint></hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/flaghere/</flag>
+    <model></model>
+  </solution>
+
+</properties>
