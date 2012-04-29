@@ -1,0 +1,42 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>No no Coordinates?</title>
+  <category>Misc</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>200</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file>
+		<hash>7725333528d7610dee3cf582fcffc111</hash> 
+		<filename>7725333528d7610dee3cf582fcffc111.txt</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+    Solve it and the flag will reveal it self.
+    Note: It is time consuming.
+    Note2: The '-' separates the rows and the columns.
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>Paint by numbers</hint>
+    <hint>Google for a solver?</hint>
+    <hint>Draw a grid if you wanna do it by hand.</hint>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/kernel/i</flag>
+    <model>"picture logic puzzles in which cells in a grid have to be colored or left blank according to numbers given at the side of the grid to reveal a hidden picture" http://en.wikipedia.org/wiki/Nonogram</model>
+  </solution>
+
+</properties>
