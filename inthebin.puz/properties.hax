@@ -1,0 +1,41 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>inthebin</title>
+  <category>Binary</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>100</points>
+
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file>
+		<hash>a974e7c69010a82ff0f4381221e4d09f</hash> 
+		<filename>a974e7c69010a82ff0f4381221e4d09f.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+    There are stuffs in the bin. Find them.
+    Note: Flag is in this form: ********.********
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>Format strings.</hint>
+    <hint>Read the stack.</hint>
+    <hint>%x.</hint>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/deadf00d.cafef00d/</flag>
+    <model>file>Format string, read stack. ./inthebin `perl -e 'print "%x."x170;'`</model>
+  </solution>
+
+</properties>
