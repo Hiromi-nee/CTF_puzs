@@ -22,7 +22,7 @@
   <description>
     Solve it and the flag will reveal it self.
     Note: It is time consuming.
-    Note2: The '-' separates the rows and the columns.
+    Note2: The dash separates the rows and the columns.
   </description>
       
   <!-- hints -->
@@ -31,12 +31,12 @@
     <hint>Paint by numbers</hint>
     <hint>Google for a solver?</hint>
     <hint>Draw a grid if you wanna do it by hand.</hint>
-
+</hints>
   <!-- solution -->
   <!-- regex of accepted flag and a short description on the model solution -->
   <solution>
     <flag>/kernel/i</flag>
-    <model>"picture logic puzzles in which cells in a grid have to be colored or left blank according to numbers given at the side of the grid to reveal a hidden picture" http://en.wikipedia.org/wiki/Nonogram</model>
+    <model>"picture logic puzzles in which cells in a grid have to be colored or left blank according to numbers given at the side of the grid to reveal a hidden picture" </model>
   </solution>
 
 </properties>
