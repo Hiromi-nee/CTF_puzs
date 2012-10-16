@@ -1,0 +1,44 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>covert</title>
+  <category>Crypto</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>200</points>
+
+  
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+	<file>
+		<hash>80f8b2ad1338388979494fb14468f42e</hash>
+		<filename>80f8b2ad1338388979494fb14468f42e.7z</filename>
+	</file>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	The stuff of ancient times.    
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>Hidden package</hint>
+    <hint>Ancient ciphers</hint>
+    <hint>Rich history</hint>
+    <hint>Famous Dialects</hint>
+    <hint>Region</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/korewafuraguyade/</flag>
+    <model>zip file appended to a jpg image, extract contents with 7zip/winrar. You'll obtain 2 files, 1 pdf and 1 txt. The pdf contains clues to the secret key to decrypt the line of text in the txt file which is encrypted using Vigenere Cipher. http://sharkysoft.com/misc/vigenere/</model>
+  </solution>
+
+</properties>
