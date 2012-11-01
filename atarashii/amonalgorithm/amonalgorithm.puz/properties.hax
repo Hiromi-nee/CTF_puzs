@@ -1,0 +1,42 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>Amon Algorithm</title>
+  <category>Crypto</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>100</points>
+
+  
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	L D N S A
+	E P G M M
+	S U H A O
+	S Z A K N
+	S Z R I I
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>Its Crypto</hint>
+    <hint>Its very hard</hint>
+    <hint>Its not ROT</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/AMONISMAKINGHARDPUZZLESSS/</flag>
+    <model>The Amon Algorithm is so hard(soft), no one has cracked it.</model>
+  </solution>
+
+</properties>
