@@ -1,0 +1,37 @@
+<properties>
+
+  <!-- nfo -->
+  <!-- all informational fields -->
+  <title>octopusmath</title>
+  <category>Forensics</category>
+  <author>Hiromi</author>
+  <version>0</version>
+  <points>100</points>
+
+  
+  <!-- files -->
+  <!-- list of files included in the puzzle package -->
+  <distributables>
+  </distributables>
+
+  <!-- descriptions -->
+  <!-- puzzle description to be written to source -->
+  <description>
+	   87 101 108 99 111 109 101 32 116 111 32 68 73 83 77 32 67 84  70 46<br />
+	   32 72 97 118 101 32 102 117 110 32 112 108 97 121 105 110 103 46 
+  </description>
+      
+  <!-- hints -->
+  <!-- list of hints to be sequentially given out -->
+  <hints>
+    <hint>less than 128</hint>
+  </hints>
+
+  <!-- solution -->
+  <!-- regex of accepted flag and a short description on the model solution -->
+  <solution>
+    <flag>/Welcome to DISM CTF. Have fun playing./</flag>
+    <model>Dec ---> Char</model>
+  </solution>
+
+</properties>
