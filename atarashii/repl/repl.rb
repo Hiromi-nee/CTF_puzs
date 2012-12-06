@@ -6,6 +6,7 @@ ___ = {
   "\x78" =>  lambda { |__| system("ruby -e 'print \"Got Something?\""+"#{__}"+"'")},
   "\xff" => lambda {print "ちょっとおじかんよろしいですか\n"},
   "\x41" => lambda { |__| p "ラジオクロス\n"},
+  "\x42" => lambda {|__| eval __},
 }
 
 
