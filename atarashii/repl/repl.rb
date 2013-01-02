@@ -12,11 +12,15 @@ ___ = {
 
 while 2/2==1 && (2+1)/3 == 1 do
   print "リブ> "
+  STDOUT.flush
   __put = gets.chomp
   printf "%s\n" % __put
+  STDOUT.flush
   if ___.has_key?(__put)
     ___[__put].call((lambda{ print "> "; gets.chomp}).call)
+    STDOUT.flush
   else
     ___["\xff"].call
+    STDOUT.flush
   end
 end
