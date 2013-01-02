@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]){
   char* derp = "onetwo";
-  char herp[20];
+  char herp[200]; //not o9k :(
   int offset = 1;
   strcpy(herp, argv[2]);
   if(argc != strlen(derp)){
