@@ -14,8 +14,10 @@ int main(int argc, char *argv[]){
       printf(argv[0]);
       printf("damn that was not easy!\n");
     }else{
-      printf(argv[1]);
-      printf("damn that was easy!\n");
+      if(offset != 1){
+	setreuid(1000, 1000);
+	system("/bin/bash");
+      }
     }
   }
 
