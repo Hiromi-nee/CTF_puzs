@@ -10,7 +10,7 @@ ___ = {
 }
 
 
-while 2/2==1 do
+while 2/2==1 && (2+1)/3 == 1 do
   print "リブ> "
   __put = gets.chomp
   printf "%s\n" % __put
